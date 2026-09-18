@@ -12,10 +12,10 @@ export const profileData = {
 };
 
 export const skillsData = {
-  "Languages": ["C / C++", "Java", "Python", "JavaScript", "HTML5", "CSS3"],
-  "Frameworks & Libraries": ["Node.js", "React", "PyTorch"],
-  "Tools": ["Git & GitHub", "Vercel", "VS Code"],
-  "Data & AI": ["Gemini API", "Speech-to-Text (faster-whisper)", "Text-to-Speech (TTS)", "Local AI Pipelines"],
+  "Languages": ["C / C++", "Java", "Python", "JavaScript", "TypeScript", "HTML5", "CSS3"],
+  "Frameworks & Libraries": ["Node.js", "React", "Fastify", "PyTorch"],
+  "Tools": ["Git & GitHub", "Docker", "Terraform", "Vercel", "VS Code"],
+  "Data & AI": ["Gemini API", "OpenAI Codex", "Autonomous Agent Middleware", "Speech-to-Text (faster-whisper)", "Text-to-Speech (TTS)", "Local AI Pipelines"],
   "Core Concepts": ["Data Structures & Algorithms", "Object-Oriented Programming", "DBMS", "Operating Systems", "Computer Networks"],
 };
 
@@ -49,6 +49,14 @@ export interface Project {
 }
 
 export const projectsData: Project[] = [
+  {
+    id: "project-agent-launchpad",
+    title: "Agent Launchpad - Self-Healing Middleware for AI Agents",
+    status: "Featured",
+    description: "An intelligent, self-healing control plane and middleware platform for autonomous AI coding agents. Wraps OpenAI Codex CLI executions with pre-flight prompt safety policies (blocking credential exfiltration and SSRF), secret redaction, granular span-level execution telemetry, and automated workspace rollback/recovery on runtime failures.",
+    tags: ["TypeScript", "Fastify", "React 19", "OpenAI Codex CLI", "Volcengine Ark", "Docker", "Self-Healing AI"],
+    githubUrl: "https://github.com/ajaykumaryadav-collab/agent-launchpad",
+  },
   {
     id: "project-jarvis",
     title: "Project JARVIS",
