@@ -1,6 +1,7 @@
 # ⚡ Ajay Kumar Yadav - Interactive Resume & Portfolio
 
 [![GitHub Profile](https://img.shields.io/badge/GitHub-ajaykumaryadav--collab-blue?logo=github)](https://github.com/ajaykumaryadav-collab)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Ajay_Kumar_Yadav-0A66C2?logo=linkedin)](https://www.linkedin.com/in/ajay-kumar-yadav-ab3942395/)
 [![Repository](https://img.shields.io/badge/Repo-my--resume-emerald?logo=github)](https://github.com/ajaykumaryadav-collab/my-resume)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
@@ -67,6 +68,7 @@ Direct links to engineering repositories:
 ## 📬 Contact & Links
 
 - **GitHub**: [https://github.com/ajaykumaryadav-collab](https://github.com/ajaykumaryadav-collab)
+- **LinkedIn**: [https://www.linkedin.com/in/ajay-kumar-yadav-ab3942395/](https://www.linkedin.com/in/ajay-kumar-yadav-ab3942395/)
 - **Email**: [ajaykumaryadav3103@gmail.com](mailto:ajaykumaryadav3103@gmail.com)
 
 ---

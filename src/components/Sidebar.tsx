@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { Mail, Phone, MapPin } from 'lucide-react';
-import { FaGithub } from 'react-icons/fa';
+import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import { profileData, skillsData } from '../data/resumeData';
 
 export const Sidebar = () => {
@@ -47,6 +47,18 @@ export const Sidebar = () => {
           <FaGithub size={16} className="text-muted" style={{ transition: 'color 0.2s ease' }} />
           <span>GitHub Profile</span>
         </a>
+        {profileData.links.linkedin && (
+          <a 
+            href={profileData.links.linkedin} 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            style={{ display: 'flex', alignItems: 'center', gap: '0.75rem', fontSize: '0.875rem', color: 'var(--text-secondary)', transition: 'color 0.2s ease' }}
+            className="contact-link"
+          >
+            <FaLinkedin size={16} className="text-muted" style={{ transition: 'color 0.2s ease' }} />
+            <span>LinkedIn Profile</span>
+          </a>
+        )}
         <a 
           href={profileData.links.phone} 
           style={{ display: 'flex', alignItems: 'center', gap: '0.75rem', fontSize: '0.875rem', color: 'var(--text-secondary)', transition: 'color 0.2s ease' }}

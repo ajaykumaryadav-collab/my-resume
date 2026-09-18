@@ -7,7 +7,7 @@ export const profileData = {
     github: "https://github.com/ajaykumaryadav-collab",
     email: "mailto:ajaykumaryadav3103@gmail.com",
     phone: "tel:+917718874408",
-    linkedin: "https://linkedin.com/" // Update with your actual LinkedIn profile URL
+    linkedin: "https://www.linkedin.com/in/ajay-kumar-yadav-ab3942395/",
   },
 };
 
