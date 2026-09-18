@@ -1,8 +1,6 @@
-# Arush Mehta - Interactive Resume
+# Ajay Kumar Yadav - Interactive Resume
 
-**[View Live Deployment on Vercel](https://arush-resume.vercel.app)**
-
-A modern, interactive, split-pane digital resume built with **React**, **Vite**, and **TypeScript**. Designed as a standalone website separate from my main portfolio to provide a focused, premium reading experience for recruiters and engineering teams.
+A modern, interactive, split-pane digital resume built with **React**, **Vite**, and **TypeScript**. Designed as a standalone website to provide a focused, premium reading experience for recruiters and engineering teams.
 
 ## Features
 
