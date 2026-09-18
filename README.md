@@ -16,7 +16,6 @@ Direct links to engineering repositories:
 |---|---|---|
 | **Project JARVIS** | Hands-free local AI desktop assistant for Windows 11 using openwakeword, faster-whisper (CUDA), Gemini 2.0 Flash, and piper-tts. | [⚡ View JARVIS Repo](https://github.com/ajaykumaryadav-collab/jarvis) |
 | **CredTitans** | Multimodal AI platform for land verification, satellite NDVI vegetation analytics, OSM radar, and ROI forecasting. | [🌍 View CredTitans Repo](https://github.com/ajaykumaryadav-collab/credtitans) |
-| **Interactive Resume** | Split-pane portfolio web application with synchronized glassmorphism panels, theme persistence, and smooth animations. | [📄 View Resume Repo](https://github.com/ajaykumaryadav-collab/my-resume) |
 
 ---
 

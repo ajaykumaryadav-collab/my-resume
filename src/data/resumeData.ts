@@ -64,13 +64,5 @@ export const projectsData: Project[] = [
     description: "An end-to-end, multimodal AI-powered platform for land intelligence, risk assessment, and cadastral verification. Integrates satellite imagery (NDVI vegetation scoring, temporal change detection), OpenStreetMap GIS infrastructure radar, real-time crime signals (GDELT), and Google Gemini AI for contextual due-diligence and ROI forecasting.",
     tags: ["React 18", "FastAPI", "Python", "PyTorch", "OpenCV", "Leaflet GIS", "Gemini AI", "Node.js"],
     githubUrl: "https://github.com/ajaykumaryadav-collab/credtitans",
-  },
-  {
-    id: "project-my-resume",
-    title: "Interactive Developer Portfolio & Digital Resume",
-    status: "Live",
-    description: "Modern, high-performance responsive digital resume web application built with React 19, TypeScript, and Vite. Designed with an independent split-pane view, glassmorphism UI tokens, persistent light/dark themes, and micro-interactions via Framer Motion.",
-    tags: ["React 19", "TypeScript", "Vite", "Framer Motion", "Vanilla CSS"],
-    githubUrl: "https://github.com/ajaykumaryadav-collab/my-resume",
   }
 ];
