@@ -38,7 +38,17 @@ export const experienceData = [
   }
 ];
 
-export const projectsData = [
+export interface Project {
+  id: string;
+  title: string;
+  status?: string;
+  description: string;
+  tags: string[];
+  githubUrl?: string;
+  liveUrl?: string;
+}
+
+export const projectsData: Project[] = [
   {
     id: "project-jarvis",
     title: "Project JARVIS",
