@@ -33,27 +33,23 @@ export const Projects = () => {
               e.currentTarget.style.boxShadow = 'var(--shadow-sm)';
             }}
           >
-            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', flexWrap: 'wrap', gap: '0.5rem', marginBottom: '0.85rem' }}>
-              <h3 style={{ fontSize: '1.2rem', fontWeight: 600, color: 'var(--text-main)' }}>{project.title}</h3>
-              <div style={{ display: 'flex', gap: '0.75rem', alignItems: 'center' }}>
+            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', flexWrap: 'wrap', gap: '0.75rem', marginBottom: '0.85rem' }}>
+              <div style={{ display: 'flex', alignItems: 'center', gap: '0.6rem', flexWrap: 'wrap' }}>
+                <h3 style={{ fontSize: '1.2rem', fontWeight: 600, color: 'var(--text-main)' }}>{project.title}</h3>
+                {project.status && <span className="badge">{project.status}</span>}
+              </div>
+              <div style={{ display: 'flex', gap: '0.6rem', alignItems: 'center', flexWrap: 'wrap' }}>
                 {project.githubUrl && (
                   <a 
                     href={project.githubUrl} 
                     target="_blank" 
                     rel="noopener noreferrer" 
-                    style={{ color: 'var(--text-muted)', display: 'inline-flex', alignItems: 'center', transition: 'color 0.2s ease, transform 0.2s ease' }}
-                    onMouseEnter={(e) => {
-                      e.currentTarget.style.color = 'var(--accent-color)';
-                      e.currentTarget.style.transform = 'scale(1.1)';
-                    }}
-                    onMouseLeave={(e) => {
-                      e.currentTarget.style.color = 'var(--text-muted)';
-                      e.currentTarget.style.transform = 'scale(1)';
-                    }}
-                    aria-label={`View ${project.title} source code on GitHub`}
-                    title="View Source Code"
+                    className="project-action-btn"
+                    aria-label={`View ${project.title} on GitHub`}
+                    title={project.githubUrl}
                   >
-                    <FaGithub size={20} />
+                    <FaGithub size={15} />
+                    <span>GitHub Repo</span>
                   </a>
                 )}
                 {project.liveUrl && (
@@ -61,19 +57,11 @@ export const Projects = () => {
                     href={project.liveUrl} 
                     target="_blank" 
                     rel="noopener noreferrer" 
-                    style={{ color: 'var(--text-muted)', display: 'inline-flex', alignItems: 'center', transition: 'color 0.2s ease, transform 0.2s ease' }}
-                    onMouseEnter={(e) => {
-                      e.currentTarget.style.color = 'var(--accent-color)';
-                      e.currentTarget.style.transform = 'scale(1.1)';
-                    }}
-                    onMouseLeave={(e) => {
-                      e.currentTarget.style.color = 'var(--text-muted)';
-                      e.currentTarget.style.transform = 'scale(1)';
-                    }}
+                    className="project-action-btn"
                     aria-label={`View live demo of ${project.title}`}
-                    title="Live Demo"
                   >
-                    <ExternalLink size={20} />
+                    <ExternalLink size={14} />
+                    <span>Live Demo</span>
                   </a>
                 )}
               </div>
